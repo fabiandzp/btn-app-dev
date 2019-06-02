@@ -21,7 +21,7 @@ install:
 script:
   - whereis google-chrome-stable
   - whereis chromedriver
-  - behave tests/acceptance/
+  #- behave tests/acceptance/
 
 deploy:
   provider: heroku
