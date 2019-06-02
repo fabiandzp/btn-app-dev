@@ -7,7 +7,7 @@ install:
 
 
 script:
-  - pytest 
+  - python -m pytest tests/
   
 deploy:
   provider: heroku
