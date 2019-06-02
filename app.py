@@ -4,16 +4,13 @@ app = Flask(__name__)
 
 posts = []
 
-
 @app.route('/')
 def homepage():
     return render_template('home.html')
 
-
 @app.route('/blog')
 def blog_page():
     return render_template('blog.html', posts=posts)
-
 
 @app.route('/post', methods=['GET', 'POST'])
 def add_post():
