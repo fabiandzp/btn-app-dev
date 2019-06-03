@@ -30,3 +30,6 @@ deploy:
   app: app-btn-demo
   on:
     repo: fabiandzp/btn-app-demo
+
+script:
+- bash run_ui_tests.sh
