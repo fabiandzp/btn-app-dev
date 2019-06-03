@@ -32,4 +32,4 @@ deploy:
     repo: fabiandzp/btn-app-demo
 
 after_deploy:
-  - bash run_ui_tests.sh
+  - ./bash run_ui_tests.sh
