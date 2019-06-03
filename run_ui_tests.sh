@@ -11,4 +11,4 @@ curl -s -X POST \
    -H "Travis-API-Version: 3" \
    -H "Authorization: token gQJRA1sLADxvYs2O02fllg" \
    -d "$body" \
-   https://api.travis-ci.com/repo/fabiandzp%2Fdemo_ut/requests
+   https://api.travis-ci.com/repo/fabiandzp%2Facceptance-test-ui/requests
